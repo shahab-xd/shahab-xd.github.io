@@ -3,26 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shahab's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Shahab</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            color: white;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 100px auto;
+            padding: 20px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            transform: scale(1.2);
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Shahab's Website</h1>
-        <p>Amazing projects and creativity await!</p>
-    </header>
 
-    <section>
-        <h2>About Me</h2>
-        <p>Hi, I'm Shahab, a passionate developer exploring web technologies.</p>
-    </section>
+    <div class="container">
+        <img src="pfp.webp" alt="Shahab Profile Picture">
+        <h1>Shahab</h1>
+        <p>Software Developer | Open Source Enthusiast | Tech Blogger</p>
+        
+        <div class="social-links">
+            <a href="https://github.com/shahab-xd" target="_blank">🔗 GitHub</a>
+            <a href="https://linkedin.com/in/username" target="_blank">🔗 LinkedIn</a>
+            <a href="https://twitter.com/username" target="_blank">🔗 Twitter</a>
+        </div>
+    </div>
 
-    <button onclick="showMessage()">Click Me!</button>
-
-    <footer>
-        <p>© 2025 Shahab. All Rights Reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
